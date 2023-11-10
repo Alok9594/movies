@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MUSICS</title>
+</head>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Great+Vibes&family=Source+Serif+Pro:wght@700&display=swap');
+*{margin:0;padding:0;}
+h1{min-height: 95vh;font-family: 'Carter One', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Source Serif Pro', serif;color: cyan;text-align: center;}
+  div.bottom{background:grey;height:100px;width:100vw;}
+  .progress{width: 90%;margin-left: 60px;}
+ .end{ position: relative;margin-left:95vw;align-items:end;}
+  .start{position: relative;}
+  </style>
+<body>
+<h1>MUSIX</h1>
+<div class="bottom">
+  <input type="range" class="progress">
+  <div class="start">0:00</div>
+  <div class="end">5:00</div>
+  <ion-icon name="play-back-circle-outline"></ion-icon>
+  <ion-icon name="play-skip-back-circle-outline"></ion-icon>
+  <ion-icon name="play-circle-outline"></ion-icon>
+  <ion-icon name="play-skip-forward-circle-outline"></ion-icon>
+  <ion-icon name="play-forward-circle-outline"></ion-icon>
+  <div class="Socialmedia">
+    <ion-icon name="heart-outline"></ion-icon>
+    <ion-icon name="chatbox-ellipses-outline">Comment</ion-icon>
+    <ion-icon name="share-social-outline">Share</ion-icon>
+  </div>
+  <div>
+    <ion-icon name="volume-high-outline"></ion-icon>
+    <input type="range" class="volumecontrols" value="30" min="0" max="100" width="10px">
+  </div>
+</div>
+</body>
+
+</html>
